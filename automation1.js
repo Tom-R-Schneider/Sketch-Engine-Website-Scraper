@@ -1,0 +1,1 @@
+// Automation 1 is used to scrap website from company job portals and create subcorpora in sketch engine with them

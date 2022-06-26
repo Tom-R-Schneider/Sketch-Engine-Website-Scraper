@@ -1,0 +1,39 @@
+{
+    "companies": [
+        {
+            "name":"SAP",
+            "website": "https://jobs.sap.com/search/?createNewAlert=false&q=Software-Design+and+Development"
+        },
+        {
+            "name":"Microsoft",
+            "website": "https://careers.microsoft.com/us/en/search-results?keywords=Engineering"
+        }
+    ],
+    "report_configs": {
+
+        "important_terms": [
+
+            "Kubernetes",
+            "Docker",
+            "JavaScript",
+            "TypeScript"
+        ]
+    },
+    "sketch_engine_configs": {
+
+        "API_KEY": "API_KEY",
+        "api_url": "https://api.sketchengine.eu/ca/run.cgi",
+        "user": "USER"
+    },
+
+    "website_scraper_configs": {
+
+        "used_website_file_path": "C:\\Users\\name\\Desktop\\Sketch Engine Website Scraper Website Store.xlsx"
+    }
+
+
+
+
+
+
+}
