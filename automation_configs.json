@@ -2,38 +2,79 @@
     "companies": [
         {
             "name":"SAP",
-            "website": "https://jobs.sap.com/search/?createNewAlert=false&q=Software-Design+and+Development"
+            "website": "https://jobs.sap.com/search/?q=Software-Design+and+Development&startrow=COUNTER",
+            "job_posting_url_identifier": "/job/",
+            "website_search_increment": 25,
+            "website_counter_start": 0,
+            "corpus_name": "skills_sap",
+            "colour": "blue"
         },
+
         {
-            "name":"Microsoft",
-            "website": "https://careers.microsoft.com/us/en/search-results?keywords=Engineering"
+            "name":"Apple",
+            "website": "https://jobs.apple.com/en-us/search?sort=relevance&search=Developer&page=COUNTER",
+            "job_posting_url_identifier": "/details/",
+            "website_search_increment": 1,
+            "website_counter_start": 1,
+            "corpus_name": "skills_apple",
+            "colour": "green"
+        },
+
+        {
+            "name":"Cisco",
+            "website": "https://jobs.cisco.com/jobs/SearchJobs/developer?projectOffset=COUNTER",
+            "job_posting_url_identifier": "/ProjectDetail/",
+            "website_search_increment": 25,
+            "website_counter_start": 0,
+            "corpus_name": "skills_cisco",
+            "colour": "red"
         }
     ],
+    
     "report_configs": {
 
-        "important_terms": [
+        "important_terms": {
 
-            "Kubernetes",
-            "Docker",
-            "JavaScript",
-            "TypeScript"
-        ]
-    },
-    "sketch_engine_configs": {
+            "programming_languages": [
+                "python",
+                "JavaScript",
+                "typescript",
+                "Java",
+                "C"
+            ],
+            
+            "technologies": [
+                "docker",
+                "Kubernetes",
+                "git",
+                "Kafka",
+                "Jenkins"
+            ],
 
-        "API_KEY": "API_KEY",
-        "api_url": "https://api.sketchengine.eu/ca/run.cgi",
-        "user": "USER"
-    },
+            "databases": [
+                "SQL",
+                "NoSQL",
+                "GraphQL",
+                "MongoDB"
+            ]
+        },
+        
+        "term_colours": {
 
-    "website_scraper_configs": {
-
-        "used_website_file_path": "C:\\Users\\name\\Desktop\\Sketch Engine Website Scraper Website Store.xlsx"
+            "python": "blue",
+            "JavaScript": "yellow",
+            "typescript": "red",
+            "Java": "brown",
+            "C": "green",
+            "docker": "blue",
+            "Kubernetes": "red",
+            "git": "yellow",
+            "Kafka": "green",
+            "Jenkins": "brown",
+            "SQL": "green",
+            "NoSQL": "yellow",
+            "GraphQL": "blue",
+            "MongoDB": "red"
+        }
     }
-
-
-
-
-
-
 }
